@@ -6,6 +6,7 @@ import search from '../logo/Search/search.svg';
 import shopping_bag from '../logo/ShoppingBag/shopping-bag.svg';
 import user from '../logo/User/user.svg';
 import plus from '../logo/Plus/plus.svg';
+import i_loom_logo from '../../assets/logo/Iloom/iloom.svg';
 
 export const assets = {
     arrow_down,
@@ -15,7 +16,8 @@ export const assets = {
     search,
     shopping_bag,
     user,
-    plus
+    plus,
+    i_loom_logo
 }
 
 export default assets;

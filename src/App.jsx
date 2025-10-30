@@ -1,5 +1,8 @@
-import './App.css'
+import React from 'react';
+import './index.css';
+import './App.css';
 import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar.jsx';
 import Main from './pages/Main.jsx';
 import NewProducts from './pages/NewProducts.jsx';
 import Promotions from './pages/Promotions.jsx';
@@ -24,6 +27,7 @@ import About from './pages/About.jsx';
 const App = () => {
   return (
     <div>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Main/>} />
         <Route path="/new-products" element={<NewProducts/>} />
