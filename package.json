@@ -1,7 +1,6 @@
 {
   "name": "frontend",
   "homepage": "https://nazariiykolesnikov.github.io/I-LOOM-Elegant-Clothes-Website/",
-  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
