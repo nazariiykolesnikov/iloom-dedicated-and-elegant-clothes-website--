@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  // eslint-disable-next-line no-undef
+  base: process.env.NODE_ENV === 'production' ? '/i-loom-elegant-clothes-website/' : '/',
   plugins: [react()],
-  base: '/i-loom-elegant-clothes-website'
 });
