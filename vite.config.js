@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/i-loom-elegant-clothes-website"
+  base: '/i-loom-elegant-clothes-website'
 });
