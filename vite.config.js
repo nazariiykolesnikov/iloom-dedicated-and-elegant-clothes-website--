@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   // eslint-disable-next-line no-undef
-  base: process.env.NODE_ENV === 'production' ? '/i-loom-elegant-and-dedicated-clothes-website/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/iloom-dedicated-and-elegant-clothes-website--/' : '/',
   plugins: [react()],
 });
