@@ -9,6 +9,10 @@
   font-style: regular;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .text-white-ffffff {
     color: #d2c7c7;
 }
@@ -176,4 +180,13 @@
     .banner h4 { 
         font-size: 16px; 
     }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }

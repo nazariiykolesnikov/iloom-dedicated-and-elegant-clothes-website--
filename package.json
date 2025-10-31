@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "./",
+  "homepage": "https://nazariiykolesnikov.github.io/iloom-dedicated-and-elegant-clothes-website--/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "tailwind-scrollbar-hide": "^4.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.38.0",

@@ -1,11 +1,11 @@
 import Banner from '../components/Banner';
-import BestsellersSection from '../components/BestsellersSection';
+import BestsellersSlider from '../components/BestsellersSlider';
 
 const Main = () => {
     return (
         <div>
             <Banner />
-            <BestsellersSection />
+            <BestsellersSlider />
         </div>
     )
 }
