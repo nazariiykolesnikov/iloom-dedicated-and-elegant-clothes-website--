@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { assets } from "../assets/data/assets.js";
 import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = () => { /* */
     const [menuOpen, setMenuOpen] = useState(false);
     const [activeSubmenu, setActiveSubmenu] = useState(false);
     const menuItems = [
