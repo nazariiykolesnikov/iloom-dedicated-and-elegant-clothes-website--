@@ -128,13 +128,13 @@ const BestsellersSlider = () => {
         </h2>
         <button
           aria-label="Scroll left"
-          className="slider-arrow-left absolute z-10 w-[64px] h-[64px] top-[273px] left-[-41px] rounded-full bg-[#FDC5E8] cursor-pointer hover:bg-[#343535] border-none" 
+          className="slider-arrow-left absolute z-10 w-[64px] h-[64px] top-[273px] left-[-43px] rounded-full bg-[#FDC5E8] cursor-pointer hover:bg-[#343535] border-none" 
           onClick={scrollLeft}
         >
           <img
             src={assets.arrow_down}
             alt="←"
-            className="w-[64px] h-[64px] rotate-[90deg]"
+            className="w-[64px] h-[64px] rotate-[90deg] ml-[-5px]"
           />
         </button>
         <button
@@ -145,7 +145,7 @@ const BestsellersSlider = () => {
           <img
             src={assets.arrow_down}
             alt="→"
-            className="w-[64px] h-[64px] rotate-[-90deg]"
+            className="w-[64px] h-[64px] rotate-[-90deg] ml-[-5px]"
           />
         </button>
         <div className="overflow-x-auto scrollbar-hide" ref={sliderRef}>
@@ -168,7 +168,7 @@ const BestsellersSlider = () => {
                 />
                 <div className="flex items-center gap-2 mb-2">
                   <span
-                    className={`text-[20px] font-bold montserrat ${
+                    className={`text-[20px] font-bold montserrat font-[600] ${
                       product.priceWithotWBWalletAndWithoutDiscount
                         ? "text-[#EA4335]"
                         : "text-[#737373]"
