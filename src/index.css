@@ -17,6 +17,14 @@
     font-family: "Aklimat MF Bold", sans-serif;
 }
 
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.red-hat-display {
+    font-family: "Red Hat Display", sans-serif;
+}
+
 .red-hat-display-400 {
     font-family: "Red Hat Display", sans-serif;
     font-weight: 400;
@@ -139,5 +147,33 @@
     .nav-icons {
         left: auto !important;
         right: 40px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .banner .inner { 
+        padding: 64px 20px; 
+    }
+
+    .banner h1 { 
+        font-size: 72px; 
+    }
+
+    .banner h4 { 
+        font-size: 20px; 
+    }
+}
+
+@media (max-width: 640px) {
+    .banner .inner { 
+        padding: 48px 16px; 
+    }
+
+    .banner h1 { 
+        font-size: 48px; 
+    }
+
+    .banner h4 { 
+        font-size: 16px; 
     }
 }

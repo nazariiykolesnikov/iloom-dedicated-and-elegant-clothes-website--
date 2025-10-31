@@ -6,7 +6,10 @@ import search from '../logo/Search/search.svg';
 import shopping_bag from '../logo/ShoppingBag/shopping-bag.svg';
 import user from '../logo/User/user.svg';
 import plus from '../logo/Plus/plus.svg';
-import i_loom_logo from '../../assets/logo/Iloom/iloom.svg';
+import i_loom_logo from '../logo/Iloom/iloom.svg';
+import empty_heart from '../logo/EmptyHeart__/empty-heart.png';
+import star from '../logo/Star/star.png';
+import shopping_cart from '../logo/ShoppingCart/shopping-cart.png';
 
 export const assets = {
     arrow_down,
@@ -17,7 +20,10 @@ export const assets = {
     shopping_bag,
     user,
     plus,
-    i_loom_logo
+    i_loom_logo,
+    empty_heart,
+    star,
+    shopping_cart,
 }
 
 export default assets;

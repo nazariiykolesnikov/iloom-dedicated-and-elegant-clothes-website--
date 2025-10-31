@@ -7,7 +7,7 @@ import oversize_hoodie_with_love_embroidery_06 from '../images/products/Oversize
 
 export const products = [
     {
-        _id: "000000001",
+        _id: "1",
         image: [
             oversize_hoodie_with_love_embroidery_01,
             oversize_hoodie_with_love_embroidery_02,
