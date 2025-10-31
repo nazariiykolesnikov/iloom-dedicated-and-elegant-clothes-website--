@@ -336,21 +336,59 @@ const Navbar = () => { /* */
                   absolute top-[42.52px] left-[1181.22px]
                   flex gap-[15px] items-center nav-icons"
               >
-                <img
-                  src={assets.user}
-                  alt="User"
-                  className="
-                    w-[40.78px] h-[34.3px] p-[3px] cursor-pointer
-                    hover:opacity-30"
-                />
-                <img
-                  src={assets.favorites}
-                  alt="Favorites"
-                  className="
-                    w-[37.33px] h-[34.3px] p-[3px]
-                    cursor-pointer hover:opacity-30"
-                />
                   <div
+                    className="relative"
+                  >
+                    <img
+                      src={assets.user}
+                      alt="User"
+                      className="
+                        w-[37.33px] h-[34.3px] p-[3px]
+                        cursor-pointer hover:opacity-30
+                        border-[#fc8bd1]"
+                    />
+                    <div
+                      className="
+                        absolute top-[16px] left-[12px] w-[24.3px] h-[24.3px]
+                        bg-[#fc8bd1] rounded-full flex items-center justify-center
+                        hover:bg-[#d629bc] cursor-pointer"
+                    >
+                      <span
+                      className="
+                        text-[#ffffff] text-[18.22px] font-normal
+                        leading-[130%] font-montserrat"
+                      >
+                        2
+                      </span>
+                    </div>
+                  </div>
+                   <div
+                    className="relative"
+                  >
+                    <img
+                      src={assets.favorites}
+                      alt="Favorites"
+                      className="
+                        w-[37.33px] h-[34.3px] p-[3px]
+                        cursor-pointer hover:opacity-30
+                        border-[#fc8bd1]"
+                    />
+                    <div
+                      className="
+                        absolute top-[16px] left-[12px] w-[24.3px] h-[24.3px]
+                        bg-[#fc8bd1] rounded-full flex items-center justify-center
+                        hover:bg-[#d629bc] cursor-pointer"
+                    >
+                      <span
+                      className="
+                        text-[#ffffff] text-[18.22px] font-normal
+                        leading-[130%] font-montserrat"
+                      >
+                        2
+                      </span>
+                    </div>
+                  </div>
+                   <div
                     className="relative"
                   >
                     <img
@@ -360,22 +398,22 @@ const Navbar = () => { /* */
                         w-[37.33px] h-[34.3px] p-[3px]
                         cursor-pointer hover:opacity-30
                         border-[#fc8bd1]"
-                  />
-                  <div
-                    className="
-                      absolute top-[16px] left-[12px] w-[24.3px] h-[24.3px]
-                      bg-[#fc8bd1] rounded-full flex items-center justify-center
-                      hover:bg-[#d629bc] cursor-pointer"
-                  >
-                    <span
+                    />
+                    <div
+                      className="
+                        absolute top-[16px] left-[12px] w-[24.3px] h-[24.3px]
+                        bg-[#fc8bd1] rounded-full flex items-center justify-center
+                        hover:bg-[#d629bc] cursor-pointer"
+                    >
+                      <span
                       className="
                         text-[#ffffff] text-[18.22px] font-normal
                         leading-[130%] font-montserrat"
-                    >
-                      2
-                    </span>
+                      >
+                        2
+                      </span>
+                    </div>
                   </div>
-                </div>
               </div>
             </header>
         </div>
