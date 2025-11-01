@@ -6,7 +6,6 @@
   font-family: "Aklimat MF Bold";
   src: url('./assets/fonts/AklimatMFBold/Bold/AklimatMFBold.ttf') format('truetype');
   font-weight: bold;
-  font-style: regular;
 }
 
 body {
@@ -80,106 +79,6 @@ body {
 .menu-container {
     top: 75px;
     left: 50px;
-}
-
-@media (max-width: 768px) {
-    .header-logo {
-        top: 20px !important;
-        left: 20px !important;
-        font-size: 24px !important;
-    }
-
-    .burger-menu {
-        top: 24px !important;
-        left: auto !important;
-        right: 20px !important;
-    }
-
-    .location-search {
-        flex-direction: column;
-        gap: 12px;
-        top: 80px !important;
-        left: 20px !important;
-        width: calc(100% - 40px);
-        color: #d629bc;
-    }
-
-    .location-btn,
-    .search-bar {
-        width: 100% !important;
-    }
-
-    .nav-icons {
-        display: none;
-    }
-
-    .mobile-menu {
-        width: 95%;
-        height: 70vh;
-        top: 65px;
-        left: 8px;
-        padding: 40px 20px;
-        overflow-y: auto;
-    }
-
-    .mobile-input-container {
-        width: 100%;
-    }
-
-    .mobile-input {
-        height: 50px;
-    }
-
-    .menu-container {
-        top: 40px;
-        left: -10px;
-        width: 316px;
-    }
-
-    .iloom-logo {
-        top: 30px;
-        left: 10px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .location-search {
-        left: 200px !important;
-        width: 500px !important;
-    }
-
-    .nav-icons {
-        left: auto !important;
-        right: 40px !important;
-    }
-}
-
-@media (max-width: 1024px) {
-    .banner .inner { 
-        padding: 64px 20px; 
-    }
-
-    .banner h1 { 
-        font-size: 72px; 
-    }
-
-    .banner h4 { 
-        font-size: 20px; 
-    }
-}
-
-@media (max-width: 640px) {
-    .banner .inner { 
-        padding: 48px 16px; 
-    }
-
-    .banner h1 { 
-        font-size: 48px; 
-    }
-
-    .banner h4 { 
-        font-size: 16px; 
-    }
 }
 
 .scrollbar-hide::-webkit-scrollbar {
