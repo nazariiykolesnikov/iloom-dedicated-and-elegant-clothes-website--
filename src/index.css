@@ -89,3 +89,82 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.footer {
+    width: 115%;
+    margin-left: -125px;
+    background-color: #212429;
+    color: white;
+    padding: 40px 20px;
+    font-family: sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.footer-column {
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-lists li a {
+    opacity: 64%;
+    line-height: 170%;
+}
+
+.footer-buttons {
+    background-color: #ffffff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+social-icons-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}

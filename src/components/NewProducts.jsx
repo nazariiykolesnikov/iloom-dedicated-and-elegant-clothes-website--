@@ -61,7 +61,7 @@ const NewProducts = () => {
                                                     }`}
                                                 >
                                                     <img
-                                                        src={isFavorite ? assets.filled_heart : assets.empty_heart}
+                                                        src={isFavorite ? assets.filled_heart : assets.heart_with_border}
                                                         alt="Favorite"
                                                         onClick={() => toggleFavorite(product.id)}
                                                         className="z-1 absolute top-[20px] right-[19px] w-[24px] h-[24px] cursor-pointer transition hover:opacity-50"
@@ -136,7 +136,7 @@ const NewProducts = () => {
                                                     }`}
                                                 >
                                                     <img
-                                                        src={isFavorite ? assets.filled_heart : assets.empty_heart}
+                                                        src={isFavorite ? assets.filled_heart : assets.heart_with_border}
                                                         alt="Favorite"
                                                         onClick={() => toggleFavorite(product.id)}
                                                         className="z-1 absolute top-[20px] right-[19px] w-[24px] h-[24px] cursor-pointer transition hover:opacity-50"
@@ -213,7 +213,7 @@ const NewProducts = () => {
                                                     }`}
                                                 >
                                                     <img
-                                                        src={isFavorite ? assets.filled_heart : assets.empty_heart}
+                                                        src={isFavorite ? assets.filled_heart : assets.heart_with_border}
                                                         alt="Favorite"
                                                         onClick={() => toggleFavorite(product.id)}
                                                         className="z-1 absolute top-[20px] right-[19px] w-[24px] h-[24px] cursor-pointer transition hover:opacity-50"
@@ -287,7 +287,7 @@ const NewProducts = () => {
                                                     }`}
                                                 >
                                                     <img
-                                                        src={isFavorite ? assets.filled_heart : assets.empty_heart}
+                                                        src={isFavorite ? assets.filled_heart : assets.heart_with_border}
                                                         alt="Favorite"
                                                         onClick={() => toggleFavorite(product.id)}
                                                         className="z-1 absolute top-[20px] right-[19px] w-[24px] h-[24px] cursor-pointer transition hover:opacity-50"

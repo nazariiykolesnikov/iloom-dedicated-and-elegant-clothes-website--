@@ -142,8 +142,8 @@ const Navbar = ({ favoritesCount = 0 }) => {
                   className="w-[37px] h-[34px] p-[3px] cursor-pointer hover:opacity-30"
               />
               <div
-                  className="absolute top-[0px] left-[20px] w-[24px] h-[24px] bg-[#fc8bd1] rounded-full flex items-center justify-center hover:bg-[#d629bc]">
-                <span className="text-white text-[14px] font-bold">2</span>
+                  className="absolute bottom-[0px] left-[20px] w-[24px] h-[24px] bg-[#fc8bd1] rounded-full flex items-center justify-center hover:bg-[#d629bc]">
+                <span className="text-[#ffffff] text-[14px] font-bold">2</span>
               </div>
             </div>
 
@@ -155,9 +155,9 @@ const Navbar = ({ favoritesCount = 0 }) => {
                   className="w-[37px] h-[34px] p-[3px] cursor-pointer hover:opacity-30"
               />
               <div
-                  className="absolute top-[0px] left-[20px] w-[24px] h-[24px] bg-[#fc8bd1] rounded-full flex items-center justify-center hover:bg-[#d629bc]">
-              <span className="text-white text-[14px] font-bold">
-                {favoritesCount ?? 0}
+                  className="absolute bottom-[0px] left-[20px] w-[24px] h-[24px] bg-[#fc8bd1] rounded-full flex items-center justify-center hover:bg-[#d629bc]">
+              <span className="text-[#ffffff] text-[14px] font-bold">
+                {favoritesCount}
               </span>
               </div>
             </div>
@@ -169,8 +169,8 @@ const Navbar = ({ favoritesCount = 0 }) => {
                   alt="Cart"
                   className="w-[37px] h-[34px] p-[3px] cursor-pointer hover:opacity-30"
               />
-              <div className="absolute top-[0px] left-[20px] w-[24px] h-[24px] bg-[#fc8bd1] rounded-full flex items-center justify-center hover:bg-[#d629bc]">
-                <span className="text-white text-[14px] font-bold">2</span>
+              <div className="absolute bottom-[0px] left-[20px] w-[24px] h-[24px] bg-[#fc8bd1] rounded-full flex items-center justify-center hover:bg-[#d629bc]">
+                <span className="text-[#ffffff] text-[14px] font-bold">2</span>
               </div>
             </div>
           </div>

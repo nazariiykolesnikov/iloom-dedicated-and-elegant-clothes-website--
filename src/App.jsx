@@ -1,6 +1,3 @@
-import { useState } from "react";
-import './index.css';
-import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar.jsx";
 import Bestsellers from "./pages/Bestsellers.jsx";
@@ -23,6 +20,9 @@ import PlaceOrder from './pages/PlaceOrder.jsx';
 import Collection from './pages/Collection.jsx';
 import FavoriteProducts from './pages/FavoriteProducts.jsx';
 import About from './pages/About.jsx';
+import Footer from "./components/Footer.jsx";
+import './index.css';
+import './App.css';
 
 const App = () => {
   return (
@@ -50,6 +50,7 @@ const App = () => {
         <Route path="/about" element={<About/>} />
         <Route path="/favorite-products" element={<FavoriteProducts/>} />
       </Routes>
+      <Footer />
     </div>
   )
 }

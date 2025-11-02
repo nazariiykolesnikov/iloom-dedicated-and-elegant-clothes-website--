@@ -32,7 +32,7 @@ const BestsellersSlider = () => {
         {/* Стрілки */}
         <button
           aria-label="Scroll left"
-          className="slider-arrow-left absolute z-10 w-[64px] h-[64px] top-[273px] left-[-43px] rounded-full bg-[#FDC5E8] cursor-pointer hover:bg-[#343535] border-none"
+          className="slider-arrow-left absolute z-10 w-[64px] h-[64px] top-[273px] left-[-43px] rounded-full bg-[#FC8BD1] cursor-pointer hover:bg-[#FDC5E8] border-none"
           onClick={scrollLeft}
         >
           <img
@@ -43,7 +43,7 @@ const BestsellersSlider = () => {
         </button>
         <button
           aria-label="Scroll right"
-          className="slider-arrow-right absolute z-10 w-[64px] h-[64px] top-[273px] right-[-41px] rounded-full bg-[#FDC5E8] border-none cursor-pointer hover:bg-[#343535]"
+          className="slider-arrow-right absolute z-10 w-[64px] h-[64px] top-[273px] right-[-41px] rounded-full bg-[#FC8BD1] border-none cursor-pointer hover:bg-[#FDC5E8]"
           onClick={scrollRight}
         >
           <img
@@ -62,11 +62,11 @@ const BestsellersSlider = () => {
                   <div
                       key={product.id}
                       className={`relative min-w-[280px] bg-white rounded-[20px] shadow-md p-4 mr-[45px] ${
-                          product.highlighted ? "border-[#b58aff]" : "border-transparent"
+                          product.highlighted ? "border-[#FC8BD1]" : "border-transparent"
                       }`}
                   >
                     <img
-                        src={isFavorite ? assets.filled_heart : assets.empty_heart}
+                        src={isFavorite ? assets.filled_heart : assets.heart_with_border}
                         alt="Favorite"
                         onClick={() => toggleFavorite(product.id)}
                         className="z-1 absolute top-[20px] right-[19px] w-[24px] h-[24px] cursor-pointer transition hover:opacity-50"
