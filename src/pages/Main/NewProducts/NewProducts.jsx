@@ -23,7 +23,7 @@ const NewProducts = () => {
     const tabs = [
         { id: "hoodie", label: "Худи" },
         { id: "t-shirt", label: "Футболки" },
-        { id: "sweatshirt", label: "Свитшоти" },
+        { id: "sweatshirt", label: "Свитшоты" },
     ];
 
     return (
@@ -32,7 +32,6 @@ const NewProducts = () => {
                 <h2 className="newproducts-section__heading text-[32px] text-left font-[700] text-[#212429] montserrat">
                     Новинки
                 </h2>
-
                 <div className="mt-[60px] px-[40px] w-[100%]">
                     <div className="news_product__tabs flex gap-[24px] text-[18px] font-[400] text-[#555]">
                         {tabs.map(({ id, label }) => (
@@ -50,7 +49,6 @@ const NewProducts = () => {
                             </button>
                         ))}
                     </div>
-
                     {/* Контент вкладки */}
                     <div className="news_product__tabs-content">
                         {activeTab === "hoodie" && (

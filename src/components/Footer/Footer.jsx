@@ -86,25 +86,25 @@ const Footer = () => {
                     <h4 className="text-left pb-[10px] montserrat font-[600] mt-[85px]">Мы в соцсетях</h4>
                     <div className="social-icons text-left">
                         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                            <img src={assets.facebook} className="w-[53px] h-[53px] ml-[-3px]" alt="Facebook"/>
+                            <img src={assets.facebook} className="w-[41px] h-[41px] ml-[-3px]" alt="Facebook"/>
                         </a>
                         <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-                            <img src={assets.youtube} className="w-[50px] h-[50px]" alt="YouTube"/>
+                            <img src={assets.youtube} className="w-[38px] h-[38px]" alt="YouTube"/>
                         </a>
                         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                            <img src={assets.instagram} className="w-[65px] h-[65px] mt-[-8px]" alt="Instagram"/>
+                            <img src={assets.instagram} className="w-[52px] h-[52px] mt-[-8px]" alt="Instagram"/>
                         </a>
                         <a href="https://x.com" target="_blank" rel="noopener noreferrer">
-                            <img src={assets.twitter} className="w-[50px] h-[50px]" alt="Twitter"/>
+                            <img src={assets.twitter} className="w-[38px] h-[38px]" alt="Twitter"/>
                         </a>
                         <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
-                            <img src={assets.tiktok} className="w-[50px] h-[50px]" alt="TikTok"/>
+                            <img src={assets.tiktok} className="w-[38px] h-[38px]" alt="TikTok"/>
                         </a>
                         <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
-                            <img src={assets.telegram} className="w-[50px] h-[50px]" alt="Telegram"/>
+                            <img src={assets.telegram} className="w-[38px] h-[38px]" alt="Telegram"/>
                         </a>
                     </div>
-                    <div className="social-icons-2 text-left mt-[100px] ml-[-28px]">
+                    <div className="payment-systems text-left">
                         <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
                             <img className="w-[105px] h-[50px]" src={assets.belcard} alt="Belcard"/>
                         </a>

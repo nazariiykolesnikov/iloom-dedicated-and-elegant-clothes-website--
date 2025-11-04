@@ -11,3 +11,18 @@
         max-width: 22%;
     }
 }
+
+.social-icons a,
+.payment-systems a {
+    cursor: pointer;
+}
+
+.social-icons a:hover,
+.payment-systems a:hover {
+    opacity: 0.4;
+}
+
+.payment-systems {
+    margin-top: 110px; 
+    margin-left: -36px;
+}

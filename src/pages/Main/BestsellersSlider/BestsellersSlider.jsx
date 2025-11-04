@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { assets } from "../../../assets/data/assets.js";
 import { products } from "../../../assets/data/products.js";
 import "./BestsellersSlider.css";
@@ -24,8 +24,8 @@ const BestsellersSlider = () => {
   };
 
   return (
-      <div className="bestsellers-section mt-[-320px]">
-        <section className="relative z-0 py-16 px-6 bg-white lg:mt-[-300px]">
+      <div className="bestsellers-section">
+        <section className="bestsellers-section__wrapper relative z-0 py-16 px-6 bg-white">
           <h2 className="bestsellers-section__heading text-[32px] text-left font-bold text-[#212429] mb-8 montserrat">
             Хиты продаж
           </h2>

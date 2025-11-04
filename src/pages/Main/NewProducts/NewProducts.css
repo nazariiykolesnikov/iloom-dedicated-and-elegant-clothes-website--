@@ -1,10 +1,10 @@
 .newproducts-section__header {
     font-size: 32px;
-    margin-left: 7px;
+    margin-left: 5px;
 }
 
 .news_product__tabs {
-    margin-left: -37px; 
+    margin-left: -64px; 
     margin-top: -25px;
 }
 
@@ -174,8 +174,4 @@
         margin-top: -48px !important;
         margin-left: -55px !important;
     }
-}
-
-.newproducts-section__heading {
-    margin-left: 7px; 
 }
