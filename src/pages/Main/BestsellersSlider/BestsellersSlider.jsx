@@ -24,7 +24,7 @@ const BestsellersSlider = () => {
   };
 
   return (
-      <div className="section-bestsellers mt-[-320px]">
+      <div className="bestsellers-section mt-[-320px]">
         <section className="relative z-0 py-16 px-6 bg-white lg:mt-[-300px]">
           <h2 className="bestsellers-section__heading text-[32px] text-left font-bold text-[#212429] mb-8 montserrat">
             Хиты продаж

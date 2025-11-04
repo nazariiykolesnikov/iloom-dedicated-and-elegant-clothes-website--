@@ -59,7 +59,8 @@
 
     .everything-else-is-excuses {
         font-size: 23px !important;
-        margin-top: -5rem;
+        padding-top: -20px !important;
+        max-width: 90%;
     }
 
     .banner-content {
