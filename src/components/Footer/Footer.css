@@ -1,0 +1,13 @@
+@media (max-width: 640px) {
+    .footer-column {
+        flex: 1 1 48%;
+        max-width: 48%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer-column {
+        flex: 1 1 22%;
+        max-width: 22%;
+    }
+}

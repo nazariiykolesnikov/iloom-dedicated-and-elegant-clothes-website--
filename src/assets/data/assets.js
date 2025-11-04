@@ -25,6 +25,7 @@ import belcard from '../logo/Belcard/Belcard.svg';
 import visa from '../logo/Visa/Visa.svg';
 import mir from '../logo/Mir/Mir.svg';
 import mastercard from '../logo/MasterCard/MasterCard.svg';
+import google_icon from '../logo/Google/google.svg';
 
 export const assets = {
     arrow_down,
@@ -54,5 +55,6 @@ export const assets = {
     visa,
     mastercard,
     mir,
+    google_icon,
 }
 

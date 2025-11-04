@@ -1,0 +1,84 @@
+@media (max-width: 1280px) {
+    .gift-title {
+        left: 400px;
+        font-size: 48px;
+        width: 600px;
+    }
+
+    .gift-button {
+        left: 400px;
+        top: 250px;
+    }
+
+    .gift-box-image {
+        width: 700px;
+        height: auto;
+        bottom: -280px;
+        left: -40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .gift-title {
+        left: 300px;
+        font-size: 42px;
+        width: 500px;
+    }
+
+    .gift-button {
+        left: 300px;
+        top: 240px;
+        font-size: 17px;
+    }
+
+    .gift-box-image {
+        width: 600px;
+        bottom: -250px;
+        left: -30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .order-gift-section {
+        height: 420px;
+        padding: 0 1rem;
+    }
+
+    .gift-title {
+        position: static;
+        font-size: 32px;
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .gift-button {
+        position: static;
+        margin: 1.5rem auto 0;
+        display: block;
+        font-size: 16px;
+    }
+
+    .gift-content {
+        position: static;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .gift-box-image {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .gift-title {
+        font-size: 26px;
+        line-height: 1.4;
+    }
+
+    .gift-button {
+        font-size: 15px;
+        padding: 10px 24px;
+    }
+}
