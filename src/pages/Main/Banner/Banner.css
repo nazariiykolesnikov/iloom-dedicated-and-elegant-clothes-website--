@@ -40,7 +40,7 @@
         font-size: 36px;
         padding-top: 5rem;
         margin-left: -1rem;
-        max-width: 82%;
+        max-width: 100%;
         line-height: 125% !important;
     }
 
@@ -48,7 +48,7 @@
         font-size: 14px;
         margin-top: -7.8rem;
         margin-left: -0.9rem;
-        max-width: 86%;
+        max-width: 80%;
     }
 }
 
