@@ -29,6 +29,18 @@
     top: -1px;
 }
 
+  .burger-menu__button {
+    width: 50px;
+    height: 50px;
+  }
+
+@media (max-width: 480px) {
+  .burger-menu__button {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 @media (max-width: 639px) {
     .navbar-inner {
         flex-direction: column;
@@ -95,16 +107,27 @@
 
 /* Планшети (640px – 1023px) */
 @media (min-width: 640px) and (max-width: 1023px) {
+    .user-button__section,  
+    .favorites-button__section,
+    .shopping-card__section {
+      display: none;  
+    }
+
     .navbar-inner {
         flex-wrap: wrap;
         gap: 1.5rem;
         justify-content: space-between;
     }
 
+    .i-loom-button__section {
+      top: 32px;
+      left: 84px;
+    }
+
     .burger-menu__section {
         position: absolute;
         top: 24px;
-        left: 451px;
+        left: 691px;
     }
 
     .location-search {

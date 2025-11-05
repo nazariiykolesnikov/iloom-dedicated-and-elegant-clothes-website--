@@ -40,30 +40,48 @@
     }
 
     .fewer-words-more-embroidery {
-        font-size: 36px;
+        font-size: 48px;
         padding-top: 5rem;
         margin-left: -1rem;
-        max-width: 100%;
+        max-width: 200%;
         line-height: 125% !important;
     }
 
     .everything-else-is-excuses {
-        font-size: 14px;
-        margin-top: -7.8rem;
+        font-size: 24px;
+        margin-top: -6.5rem;
         margin-left: -0.9rem;
-        max-width: 80%;
+        max-width: 200%;
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 481px) and (max-width: 719px) {
     .fewer-words-more-embroidery {
-        margin-left: -1rem;
+        font-size: 70px;
+        padding-top: 80px;
+        padding-bottom: 60px;
     }
 
     .everything-else-is-excuses {
-        font-size: 23px !important;
-        padding-top: -20px !important;
-        max-width: 90%;
+        font-size: 40px;
+        padding-bottom: 60px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .fewer-words-more-embroidery {
+        font-size: 56px;
+        margin-left: -1rem;
+        width: 100%;
+        padding-top: 90px;
+        padding-bottom: 30px;
+    }
+
+    .everything-else-is-excuses {
+        font-size: 40px;
+        width: 100%;
+        padding-bottom: 30px;
     }
 
     .banner-content {

@@ -1,84 +1,56 @@
-@media (max-width: 1280px) {
-    .gift-title {
-        left: 400px;
-        font-size: 48px;
-        width: 600px;
-    }
-
-    .gift-button {
-        left: 400px;
-        top: 250px;
-    }
-
-    .gift-box-image {
-        width: 700px;
-        height: auto;
-        bottom: -280px;
-        left: -40px;
-    }
-}
-
 @media (max-width: 1024px) {
-    .gift-title {
-        left: 300px;
-        font-size: 42px;
-        width: 500px;
-    }
 
-    .gift-button {
-        left: 300px;
-        top: 240px;
-        font-size: 17px;
-    }
-
-    .gift-box-image {
-        width: 600px;
-        bottom: -250px;
-        left: -30px;
-    }
 }
 
-@media (max-width: 768px) {
-    .order-gift-section {
-        height: 420px;
-        padding: 0 1rem;
+@media (max-width: 720px) {
+    .i_look_order_gift_wrapping {
+        margin-top: 50px !important;
+        margin-left: -39px;
+        width: 225% !important;
+        height: 270px !important;
     }
 
-    .gift-title {
-        position: static;
-        font-size: 32px;
-        width: 100%;
-        text-align: center;
-        margin-top: 2rem;
+    .i_look_gift_wrapping {
+        width: 503px !important;
+        height: 503px !important;
+        top: -25px;
+        left: -22px !important;
     }
 
-    .gift-button {
-        position: static;
-        margin: 1.5rem auto 0;
-        display: block;
-        font-size: 16px;
+    .i_look_gift_wrapping__heading {
+        font-size: 30px !important;
+        left: 320px !important;
+        top: -5px !important;
+        max-width: 500px !important;
     }
 
-    .gift-content {
-        position: static;
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-
-    .gift-box-image {
-        display: none;
+    .i_look_gift_wrapping__button {
+        left: 318px !important;
+        top: 134px !important;
+        width: 274px;
+        height: 54px;
+        padding-left: 18px !important;
+        padding-bottom: -18px !important;
     }
 }
 
 @media (max-width: 480px) {
-    .gift-title {
-        font-size: 26px;
-        line-height: 1.4;
+    .i_look_order_gift_wrapping {
+        width: 7.5%;
     }
+}
 
-    .gift-button {
-        font-size: 15px;
-        padding: 10px 24px;
-    }
+.i_look_gift_wrapping__heading {
+    position: absolute; 
+    left: 521px; 
+    top: 40px;
+    width: 749px;
+    font-size: 56px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.i_look_order_gift_wrapping {
+    max-width: 3000px;
+    width: 70%;
 }

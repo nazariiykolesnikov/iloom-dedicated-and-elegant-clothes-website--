@@ -1,42 +1,120 @@
-@media (max-width: 1024px) {
-    .subscribing-container {
-        flex-direction: column;
-        height: auto;
-        align-items: flex-start;
-        gap: 2rem;
-    }
-
-    .subscribing-form {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .subscribing-form input[type="email"] {
-        width: 100%;
-    }
-
-    .subscribing-form button {
-        width: 100%;
-        margin-left: 0;
-    }
+.subscribing-form button {
+  width: 304px;
+  height: 48px;
 }
 
+.subscribing-form input {
+  width: 384px;
+  height: 48px;
+}
+
+.subscribing-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.subscribing-form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.subscribing-header h2,
+.subscribing-header p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* 🌿 Адаптив для планшетів і менших */
+@media (max-width: 1024px) {
+  .subscribing-container {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    gap: 2rem;
+  }
+
+  .subscribing-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .subscribing-form input[type="email"] {
+    width: 100%;
+  }
+}
+
+/* 📱 Адаптив для мобільних */
+@media (max-width: 720px) {
+  .subscribing-container {
+    margin-top: -100px;
+    margin-left: -30px;
+    height: auto;
+  }
+
+  .subscribing-header {
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 200px;
+  }
+
+  .subscribing-form {
+    margin-top: -70px;
+    margin-left: -35px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .subscribing-form input {
+    margin-top: 120px;
+    margin-left: -18px;
+    width: 170px;
+  }
+
+  .subscribing-form button {
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+}
+
+/* 🧁 Шрифти для середніх мобільних */
+@media (min-width: 481px) and (max-width: 720px) {
+  .subscribing-header h2 {
+    font-size: 18px;
+  }
+
+  .subscribing-header p {
+    font-size: 13px;
+  }
+}
+
+/* 🍬 Шрифти для маленьких мобільних */
 @media (max-width: 480px) {
-    .subscribing-text h2 {
-        font-size: 20px;
-    }
+  .subscribing-header h2 {
+    font-size: 15px;
+  }
 
-    .subscribing-text p {
-        font-size: 14px;
-    }
+  .subscribing-header p {
+    font-size: 14px;
+  }
 
-    .subscribing-form input[type="email"] {
-        font-size: 14px;
-        height: 44px;
-    }
+  .subscribing-form input[type="email"],
+  .subscribing-form button {
+    font-size: 14px;
+    height: 44px;
+  }
+}
 
-    .subscribing-form button {
-        font-size: 14px;
-        height: 44px;
-    }
+/* 🧸 Дуже маленькі екрани */
+@media (max-width: 440px) {
+  .subscribing-header h2 {
+    font-size: 17px;
+    width: 120px;
+  }
+
+  .subscribing-header p {
+    font-size: 12px;
+    width: 140px;
+  }
 }

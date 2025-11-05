@@ -1,19 +1,14 @@
 import { useRef, useState } from "react";
 import { assets } from "../../../assets/data/assets.js";
 import { products } from "../../../assets/data/products.js";
+import {
+  increment,
+  decrement
+} from "../../../action/CounterAction.js";
 import "./BestsellersSlider.css";
 
-const BestsellersSlider = () => {
-  const [favorites, setFavorites] = useState([]);
+const BestsellersSlider = ({ dispatch }) => {
   const sliderRef = useRef(null);
-
-  const toggleFavorite = (productId) => {
-    setFavorites((prev) =>
-        prev.includes(productId)
-            ? prev.filter((id) => id !== productId)
-            : [...prev, productId]
-    );
-  };
 
   const scrollLeft = () => {
     sliderRef.current?.scrollBy({ left: -500, behavior: "smooth" });
@@ -29,8 +24,6 @@ const BestsellersSlider = () => {
           <h2 className="bestsellers-section__heading text-[32px] text-left font-bold text-[#212429] mb-8 montserrat">
             Хиты продаж
           </h2>
-
-          {/* Стрілки */}
           <button
               aria-label="Scroll left"
               className="slider-arrow-left absolute z-10 w-[64px] h-[64px] top-[273px] left-[-43px] rounded-full bg-[#FC8BD1] cursor-pointer hover:bg-[#FDC5E8] border-none"
@@ -53,12 +46,20 @@ const BestsellersSlider = () => {
                 className="w-[64px] h-[64px] rotate-[-90deg] ml-[-5px]"
             />
           </button>
-
-          {/* Слайдер */}
           <div className="bestsellers__slider overflow-x-auto scrollbar-hide" ref={sliderRef}>
             <div className="flex gap-6 w-max ml-[7px] mt-[20px]">
               {products.map((product) => {
-                const isFavorite = favorites.includes(product.id);
+                const [isFavorite, setIsFavorite] = useState(false);
+
+                const handleFavoriteClick = () => {
+                  if (isFavorite) {
+                    dispatch(decrement());
+                  } else {
+                    dispatch(increment());
+                  }
+                  setIsFavorite(!isFavorite);
+                };
+
                 return (
                     <div
                         key={product.id}
@@ -69,7 +70,7 @@ const BestsellersSlider = () => {
                       <img
                           src={isFavorite ? assets.filled_heart : assets.heart_with_border}
                           alt="Favorite"
-                          onClick={() => toggleFavorite(product.id)}
+                          onClick={handleFavoriteClick}
                           className="z-1 absolute top-[20px] right-[19px] w-[24px] h-[24px] cursor-pointer transition hover:opacity-50"
                       />
                       <img

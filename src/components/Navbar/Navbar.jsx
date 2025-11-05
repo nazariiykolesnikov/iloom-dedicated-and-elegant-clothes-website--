@@ -4,7 +4,7 @@ import { menuitems } from "../../assets/data/menu-item.js";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ count }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSubmenu, setActiveSubmenu] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,6 @@ const Navbar = () => {
   return (
       <header className="relative header__section">
         <div className="header relative ml-[-115px] mt-[-300px]">
-          {/* Логотип */}
           <div className="i-loom-button__section w-[150px] h-[36px] mt-[-5px]">
             <img
                 src={assets.i_loom_logo}
@@ -24,8 +23,6 @@ const Navbar = () => {
                 className="w-full h-full object-contain transition-transform duration-300 ease-in-out"
             />
           </div>
-
-          {/* Бургер-меню */}
           <div
               className="burger-menu__section w-[31px] h-[31px] flex items-center justify-center cursor-pointer"
               onClick={() => setMenuOpen(!menuOpen)}
@@ -33,12 +30,10 @@ const Navbar = () => {
             <img
                 src={assets.burger_menu}
                 alt="Menu"
-                className="w-full h-full object-contain transition-transform duration-300 ease-in-out"
+                className="burger-menu__button w-full h-full object-contain transition-transform duration-300 ease-in-out"
                 style={{ transform: menuOpen ? "rotate(360deg)" : "rotate(0deg)" }}
             />
           </div>
-
-          {/* Меню */}
           {menuOpen && (
               <div className="absolute top-[93px] left-[100px] w-[288px] h-[715px] bg-gradient-to-br from-[#fc8bd1] to-[#fdb1e2] rounded-[30px] flex flex-col items-center py-6 z-50 shadow-[0_8px_25px_rgba(0,0,0,0.25)] backdrop-blur-md animate-fade-in">
                 <nav className="flex flex-col gap-3 text-white text-[17px] font-semibold w-full px-6 mt-[10px] ml-[15px]">
@@ -73,8 +68,6 @@ const Navbar = () => {
                       )}
                     </span>
                         </NavLink>
-
-                        {/* Підменю */}
                         {activeSubmenu === path && submenu && (
                             <div className="mt-2 ml-4 flex flex-col gap-2 pl-3 animate-fade-in-slow text-[#ffffff]">
                               {submenu.map(({ path, label }) => (
@@ -97,7 +90,6 @@ const Navbar = () => {
                 </nav>
               </div>
           )}
-
           <div className="search-location__section flex gap-[24px] items-center location-search">
             <button
                 className="search-location__button text-left text-[11px] w-[279px] h-[44px] bg-[#FC8BD1] rounded-[12px] px-[16px] py-[14px] gap-[10px] text-[#FFFFFF] transition-all hover:opacity-80 border-none cursor-pointer">
@@ -118,8 +110,6 @@ const Navbar = () => {
                   className="w-[16px] h-[16px] object-contain"
               />
             </button>
-
-            {/* Пошукова строка */}
             <div className="search-string__section w-[284px] h-[44px]">
               <input
                   type="text"
@@ -133,9 +123,7 @@ const Navbar = () => {
               />
             </div>
           </div>
-
           <div className="absolute top-[42px] right-[-75px] flex gap-[15px] items-center">
-            {/* User */}
             <div className="relative user-button__section">
                     <img
                         src={assets.user}
@@ -171,7 +159,6 @@ const Navbar = () => {
                             <label className="tab-form__label" htmlFor="password">Пароль</label>
                             <input className="tab-form__input" type="password" id="password" name="password" required />
                             <a href="#" className="forgot">Забыли пароль?</a>
-
                             <button className="tab-form__submit" type="submit">Войти</button>
                           </form>
                           <p className="google-auth">Войти через</p>
@@ -205,10 +192,9 @@ const Navbar = () => {
                     )}
                 <div
                     className="user-button absolute bottom-[0px] left-[20px] w-[24px] h-[24px] bg-[#fc8bd1] rounded-full flex items-center justify-center hover:bg-[#d629bc]">
-                    <span className="user-button__counter text-[#ffffff] text-[14px] font-bold">2</span>
+                    <span className="user-button__counter text-[#ffffff] text-[14px] font-bold">0</span>
                 </div>
             </div>
-
             <div className="relative favorites-button__section">
               <img
                   src={assets.favorites}
@@ -218,12 +204,10 @@ const Navbar = () => {
               <div
                   className="favorites-button absolute bottom-[0px] left-[20px] w-[24px] h-[24px] bg-[#fc8bd1] rounded-full flex items-center justify-center hover:bg-[#d629bc]">
               <span className="favorites-button__counter text-[#ffffff] text-[14px] font-bold">
-                2
+                {count}
               </span>
               </div>
             </div>
-
-            {/* Cart */}
             <div className="relative shopping-card__section">
               <img
                   src={assets.shopping_bag}
@@ -231,7 +215,9 @@ const Navbar = () => {
                   className="shopping-card-button w-[37px] h-[34px] p-[3px] cursor-pointer hover:opacity-30"
               />
               <div className="absolute bottom-[0px] left-[20px] w-[24px] h-[24px] bg-[#fc8bd1] rounded-full flex items-center justify-center hover:bg-[#d629bc]">
-                <span className="shopping-card-button__counter text-[#ffffff] text-[14px] font-bold">2</span>
+                <span className="shopping-card-button__counter text-[#ffffff] text-[14px] font-bold">
+                  0
+                </span>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { assets } from "../assets/data/assets.js";
-import { menuitems } from "../assets/data/menu-item.js";
+import { assets } from "../../assets/data/assets.js";
+import { menuitems } from "../../assets/data/menu-item.js";
 import { NavLink, useParams } from "react-router-dom";
 
 const Product = () => {

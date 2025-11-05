@@ -20,14 +20,14 @@ const Footer = () => {
                             </NavLink>
                         </span>
                     </div>
-                    <h4 className="text-left  pb-[10px] montserrat font-[600]">Покупателям</h4>
+                    <h4 className="footer-lists__heading text-left pb-[10px] montserrat font-[600]">Покупателям</h4>
                     <ul className="footer-lists text-left font-[400] text-[14px] montserrat text-[#ffffff]">
                         <li><NavLink to="/privacy" className="">Политика персональных данных</NavLink></li>
                         <li><NavLink to="/promotions" className="">Акции</NavLink></li>
                         <li><NavLink to="/certificates" className="">Подарочные сертификаты</NavLink></li>
                         <li><NavLink to="/promo-rules" className="">Правила использования промокодов</NavLink></li>
                     </ul>
-                    <h5 className="text-left font-[500] mt-[55px] text-[#737373] montserrat text-[12px]">
+                    <h5 className="footer-bottom text-left font-[500] mt-[55px] text-[#737373] montserrat text-[12px]">
                         © 2020 – 2022 ООО «Омикс Стор».<br/> Все права защищены.
                     </h5>
                 </div>
@@ -45,12 +45,12 @@ const Footer = () => {
                             </NavLink>
                         </span>
                     </div>
-                    <h4 className="text-left pb-[10px] montserrat font-[600]">Партнерам</h4>
+                    <h4 className="footer-lists__heading text-left pb-[10px] montserrat font-[600]">Партнерам</h4>
                     <ul className="footer-lists text-left font-[400] text-[14px] montserrat text-[#ffffff]">
                         <li><NavLink to="/about">Партнерская программа</NavLink></li>
                         <li><NavLink to="/contacts">Правила использования промокодов</NavLink></li>
                     </ul>
-                    <h5 className="text-left font-[500] mt-[118px] text-[#737373] montserrat text-[12px]">
+                    <h5 className="footer-bottom text-left font-[500] mt-[118px] text-[#737373] montserrat text-[12px]">
                         Общество с ограниченной<br/> ответственностью «Омикс Стор»,<br/>
                         юр.адрес: 220020, Минск, пр.<br/> Победителей, 100, оф. 203
                     </h5>
@@ -69,7 +69,7 @@ const Footer = () => {
                              </NavLink>
                         </span>
                     </div>
-                    <h4 className="text-left pb-[10px] montserrat font-[600]">О компании</h4>
+                    <h4 className="footer-lists__heading text-left pb-[10px] montserrat font-[600]">О компании</h4>
                     <ul className="footer-lists text-left font-[400] text-[14px] montserrat text-[#ffffff]">
                         <li><NavLink to="/about">О нас</NavLink></li>
                         <li><NavLink to="/contacts">Контакты</NavLink></li>
@@ -77,7 +77,7 @@ const Footer = () => {
                         <li><NavLink to="/vacancies">Вакансии</NavLink></li>
                         <li><NavLink to="/partners">Партнёрская программа</NavLink></li>
                     </ul>
-                    <h5 className="text-left font-[500] mt-[20px] text-[#737373] montserrat text-[12px]">
+                    <h5 className="footer-bottom text-left font-[500] mt-[20px] text-[#737373] montserrat text-[12px]">
                         В торговом реестре с 23 июня 2010 г.,<br/> № регистрации 256476, УНП 14886482
                     </h5>
                 </div>

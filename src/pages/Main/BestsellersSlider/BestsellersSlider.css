@@ -27,6 +27,10 @@
         padding: 2rem 1rem;
     }
 
+    .bestsellers__slider {
+        width: 250% !important;
+    }
+
     .bestsellers-heading {
         font-size: 24px;
         margin-left: -30px;
@@ -65,12 +69,12 @@
     
     .bestsellers__slider {
         margin-top: -30px;
-        margin-left: -60px;
+        margin-left: -55px;
     }
 
     .bestsellers-section__heading {
-        margin-left: -30px;
-        margin-top: -2px;
+        margin-left: -30px !important;
+        margin-top: 15px !important;
     }
 
     .bestsellers-section__image {
@@ -83,10 +87,6 @@
     .bestsellers-section {
         margin-top: -100px;
         padding: 1.5rem 1rem;
-    }
-
-    .bestsellers-section__wrapper {
-        width: 600px !important; 
     }
 
     .product-card {
@@ -115,9 +115,13 @@
     }
 
     .bestsellers-section__heading {
-        font-size: 25px !important; 
-        margin-left: 20px !important;
-        margin-top: -10px !important;
+        font-size: 30px !important; 
+        margin-left: -30px !important;
+        padding-top: 16px;
+    }
+
+    .bestsellers__slider {
+        margin-top: -30px !important;
     }
 
     .bestsellers-slider__container {

@@ -10,7 +10,7 @@ import Underwear from './pages/Underwear.jsx';
 import ViewAll from './pages/ViewAll.jsx';
 import Bestsellers from "./pages/Bestsellers.jsx";
 import BecomeSeller from './pages/BecomeSeller.jsx';
-import Product from './pages/Product.jsx';
+import Product from './pages/Product/Product.jsx';
 import Cart from './pages/Cart.jsx';
 import Login from './pages/Login.jsx';
 import Register from './pages/Register.jsx';
