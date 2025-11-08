@@ -1,5 +1,5 @@
-import order_gift_wrapping from '../../../assets/images/banners/Order gift wrapping/order_gift_wrapping.png';
-import i_look_gift_wrapping from '../../../assets/images/banners/Order gift wrapping/i_look_gift_wrapping.png';
+import order_gift_wrapping from '../../../assets/images/banner/Order_gift_wrapping/order_gift_wrapping.png';
+import i_look_gift_wrapping from '../../../assets/images/banner/Order_gift_wrapping/i_look_gift_wrapping.png';
 import "./OrderGiftWrapping.css";
 
 const OrderGiftWrapping = () => {

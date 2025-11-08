@@ -1,7 +1,7 @@
-export const full_products_information = [
+export const full_products_info = [
     {
-        _id: "1",
-        image: [
+        id: 1,
+        images: [
            
         ],
         article: "374023886",
@@ -48,4 +48,4 @@ export const full_products_information = [
     }
 ];
 
-export default products;
+export default full_products_information;

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+.product-search-engine__container {
+    width: 375px;
+    height: 520px;
+    font-family: "Montserrat", sans-serif;
+    background: transparent;
+    border-radius: 15px;
+    box-shadow: none;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.product-search-engine__container::-webkit-scrollbar {
+    display: none;
+}
+
+.product-search-engine__form {
+    width: 100%;
+    border: 1px solid rgb(82, 74, 235);
+    border-radius: 4px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.product-search-engine__input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-radius: 12px;
+    color: #ffffff;
+    font-weight: 400;
+    background: #FC8BD1;
+}
+
+.product-search-engine__input::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.product-search-engine__form {
+    border-radius: 12px;
+    background: #FC8BD1;
+}
+
+.product-search-engine__f-icon {
+    padding-left: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+.product-search-engine__product-list {
+    padding: 20px 0;
+    margin-top: 1px;
+    border-radius: 12px;
+    background: #f8f7f7;
+}
+
+.product-search-engine__product {
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 5px;
+}
+
+.product-search-engine__p-image {
+    width: 70px;
+    height: 70px;
+    margin-left: 8px;
+    object-fit: cover;
+    border: 2px solid #686565;
+}
+
+.product-search-engine__p-details {
+    padding-left: 15px;
+}
+
+.product-search-engine__p-details--p-name {
+    margin-top: -1.25px;
+    font-size: 19px;
+    font-style: italic;
+    color: #4d4949;
+    font-family: "Marck Script", cursive;
+}
+
+.product-search-engine__p-details--p-price {
+    margin-top: -13.25px;
+    font-size: 21px;
+    font-family: "Pacifico", cursive;
+    color: #4d4949;
+}
+
+.product-search-engine__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.product-search-engine__form,
+.product-search-engine__product-list {
+  position: relative;
+  z-index: 20;
+}
+
+.product-search-engine__product:hover {
+    background: #FC8BD1;
+}
+
+.product-search-engine__product:hover h2,
+.product-search-engine__product:hover h3 {
+    color: #ffffff;
+}
+
+.product-search-engine__product:hover img {
+    border: 2px solid #ffffff;
+}

@@ -1,204 +1,207 @@
 /* Худи */
-import oversize_hoodie_with_love_embroidery_02 from "../../assets/products/Oversize_hoodie_with_Love_embroidery/oversize_hoodie_with_love_embroidery_01.webp";
-// import oversize_hoodie_with_rat_club_embroidery_01 from "../images/products/Oversize_hoodie_with_Rat_Club_embroidery/oversize_hoodie_with_rat_club_embroidery_01.webp";
-// import oversize_hoodie_with_embroidery_we_wont_judge_but_we_will_discuss_01 from "../images/products/Oversize_hoodie_with_embroidery_we_wont_judge_but_we_will_discuss/oversize_hoodie_with_embroidery_we_wont_judge_but_we_will_discuss_01.webp";
-// import oversize_hoodie_with_beach_club_embroidery_01 from "../images/products/Oversize_hoodie_with_Beach_Club_embroidery/oversize_hoodie_with_beach_club_embroidery_01.webp";
-// import oversize_hoodie_with_$100_embroidery_01 from "../images/products/Oversize_hoodie_with_$100_embroidery/Oversize_hoodie_with_$100_embroidery_01.webp";
-// import oversize_hoodie_with_van_goghs_starry_night_embroidery_01 from "../images/products/Oversize_hoodie_with_Van_Goghs_Starry_Night_embroidery/oversize_hoodie_with_van_goghs_starry_night_embroidery_01.webp";
+import oversize_skinny_with_carp_koi_embroidery_01 from "../../assets/products/Oversize hoodies/Oversize_skinny_with_Carp_Koi_embroidery/oversize_skinny_with_carp_koi_embroidery_01.webp";
+import oversize_hoodie_with_no_money_no_funny_embroidery_01 from "../../assets/products/Oversize hoodies/Oversize_hoodie_with_No_Money_No_Funny_embroidery/oversize_hoodie_with_no_money_no_funny_embroidery_01.webp";
+import oversize_blue_hoodie_with_non_brushed_piping_01 from "../../assets/products/Oversize hoodies/Oversize_blue_hoodie_with_non_brushed_piping/oversize_blue_hoodie_with_non_brushed_piping_01.webp";
+import hoodie_with_anxiety_club_embroidery_01 from "../../assets/products/Oversize hoodies/Hoodie_with_Anxiety_Club_embroidery/hoodie_with_Anxiety_Club_embroidery_01.webp";
+import oversize_hoodie_with_love_embroidery_01 from "../../assets/products/Oversize hoodies/Oversize_hoodie_with_Love_embroidery/oversize_hoodie_with_love_embroidery_01.webp";
+import oversize_hoodie_with_$100_embroidery_01 from "../../assets/products/Oversize hoodies/Oversize_hoodie_with_$100_embroidery/oversize_hoodie_with_$100_embroidery_01.webp";
+import blue_hoodie_with_honk_embroidery_01 from "../../assets/products/Oversize hoodies/Blue_hoodie_with_Honk_embroidery/blue_hoodie_with_honk_embroidery_01.webp";
+import oversize_hoodie_with_working_around_the_clock_embroidery_01 from "../../assets/products/Oversize hoodies/Oversize_hoodie_with_working_around_the_clock_embroidery/oversize_hoodie_with_working_around_the_clock_embroidery_01.webp";
 // import oversized_hoodie_with_embroidery_I_run_this_circus_01 from "../images/products/Oversize_hoodie_with_embroidery_I_run_this_circus/oversized_hoodie_with_embroidery_I_run_this_circus_01.webp";
 // import blue_hoodie_with_honk_embroidery_01 from "../images/products/Blue_hoodie_with_Honk_embroidery/blue_hoodie_with_honk_embroidery_01.webp";
 
 /* Футболки */
-// import t_shirt_with_rat_club_embroidery_01 from "../images/products/T_shirt_with_Rat_Club_embroidery/t_shirt_with_rat_club_embroidery_01.webp";
-// import t_shirt_with_sniper_sniper_sniper_embroidery_01 from "../images/products/T_shirt_with_Sniper_Sniper_Sniper_embroidery/t_shirt_with_sniper_sniper_sniper_embroidery_01.webp";
-// import t_shirt_with_wifey_wifey_wifey_embroidery_01 from "../images/products/T_shirt_with_Wifey_Wifey_Wifey_embroidery/t_shirt_with_wifey_wifey_wifey_embroidery_01.webp";
-// import oversize_black_t_shirt_with_heart_embroidery_01 from "../images/products/Oversize_black_t_shirt_with_heart_embroidery/oversize_black_t_shirt_with_heart_embroidery_01.webp";
-// import oversize_white_t_shirt_with_heart_embroidery_01 from "../images/products/Oversize_white_t_shirt_with_heart_embroidery/oversize_white_t_shirt_with_heart_embroidery_01.webp";
+import tommys_sandwiches_t_shirt_01 from "../../assets/products/TShirts/Tommys_Sandwiches_T_shirt/tommys_sandwiches_t_shirt_01.webp";
+import oversize_t_shirt_anxiety_club_01 from "../../assets/products/TShirts/Oversize_T_shirt_Anxiety_Club/oversize_t_shirt_anxiety_club_01.webp";
+import t_shirt_with_sigma_embroidery_01 from "../../assets/products/TShirts/T_shirt_with_Sigma_embroidery/t_shirt_with_sigma_embroidery_01.webp";
+import need_money_for_porsche_t_shirt_01 from "../../assets/products/TShirts/Need_money_for_Porsche_t_shirt/need_money_for_porsche_t_shirt_01.webp";
+import oversize_white_t_shirt_with_heart_embroidery_01 from "../../assets/products/TShirts/T_shirt_with_Best_Friends_print/t_shirt_with_best_friends_print_01.webp";
 // import tommys_sandwiches_t_shirt_01 from "../images/products/Tommys_Sandwiches_T_shirt/tommys_sandwiches_t_shirt_01.webp";
 // import oversize_t_shirt_anxiety_club_01 from "../images/products/Oversize_T_shirt_Anxiety_Club/oversize_t_shirt_anxiety_club_01.webp";
 
 /* Свитшоти */
-// import sweatshirt_with_rat_club_embroidery_01 from "../images/products/Sweatshirt_with_Rat_Club_embroidery/sweatshirt_with_rat_club_embroidery_01.webp";
-// import sweatshirt_with_stay_kind_embroidery_01 from "../images/products/Sweatshirt_with_Stay_Kind_embroidery/sweatshirt_with_stay_kind_embroidery_01.webp";
+import sweatshirt_with_embroidery_the_creation_of_adam_01 from "../../assets/products/Sweatshirts/Sweatshirt_with_embroidery_the_creation_of_Adam/sweatshirt_with_embroidery_the_creation_of_adam_01.webp";
+import sweatshirt_with_stay_kind_embroidery_01 from "../../assets/products/Sweatshirts/Embroidered_sweatshirt_Rat_Club_We_won't_judge_but_we_will_discuss/embroidered_sweatshirt_rat_club_we_wont_judge_but_we_will_discuss_01.webp";
 // import sweatshirt_with_sun_embroidery_01 from "../images/products/Sweatshirt_with_Sun_embroidery/sweatshirt_with_sun_embroidery_01.webp";
 // import sweatshirt_with_pink_skull_embroidery_01 from "../images/products/Sweatshirt_with_Pink_Skull_embroidery/sweatshirt_with_pink_skull_embroidery_01.webp";
+import oversize_hoodie_with_love_embroidery_02 from "../../assets/products/Oversize hoodies/Oversize_skinny_with_Carp_Koi_embroidery/oversize_skinny_with_carp_koi_embroidery_01.webp";
 
 export const products = [
   {
     id: 101,
-    title: 'Худи оверсайз с вышивкой "Любовь"',
-    priceWithoutWBWalletAndWithoutDiscount: 9000,
-    priceWithoutWBWalletAndWithDiscount: 5291,
-    priceWithWBWalletWithDiscount: 5155,
+    title: 'Худи оверсайз с вышивкой "Карпы Кои""',
+    priceWithoutWBWalletAndWithoutDiscount: 25000,
+    priceWithoutWBWalletAndWithDiscount: 13485,
+    priceWithWBWalletWithDiscount: 13215,
     rating: 5,
-    reviews: 1,
+    reviews: 2,
     highlighted: true,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: oversize_skinny_with_carp_koi_embroidery_01,
   },
   {
     id: 102,
-    title: 'Худи оверсайз с вышивкой "Rat Club"',
-    priceWithoutWBWalletAndWithoutDiscount: 8900,
-    priceWithoutWBWalletAndWithDiscount: 5790,
-    priceWithWBWalletWithDiscount: 5650,
+    title: 'Худи оверсайз с вышивкой "No Money — No Funny',
+    priceWithoutWBWalletAndWithoutDiscount: 10000,
+    priceWithoutWBWalletAndWithDiscount: 7241,
+    priceWithWBWalletWithDiscount: 7389,
     rating: 5,
     reviews: 3,
     highlighted: false,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: oversize_hoodie_with_no_money_no_funny_embroidery_01,
   },
   {
     id: 103,
-    title: 'Худи оверсайз - Не осудим, но обсудим',
-    priceWithoutWBWalletAndWithoutDiscount: 10000,
-    priceWithoutWBWalletAndWithDiscount: 6797,
-    priceWithWBWalletWithDiscount: 5995,
+    title: 'Футболка с принтом "Tommys Sandwiches"',
+    priceWithoutWBWalletAndWithoutDiscount: 3773,
+    priceWithoutWBWalletAndWithDiscount: 3850,
+    priceWithWBWalletWithDiscount: 5000,
     rating: 5,
     reviews: 2,
     highlighted: false,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: tommys_sandwiches_t_shirt_01,
   },
   {
     id: 104,
-    title: 'Худи оверсайз "Beach Club"',
-    priceWithoutWBWalletAndWithoutDiscount: 10000,
-    priceWithoutWBWalletAndWithDiscount: 6797,
-    priceWithWBWalletWithDiscount: 6661,
+    title: 'Футболка оверсайз "Тревожный Клуб"',
+    priceWithoutWBWalletAndWithoutDiscount: 4700,
+    priceWithoutWBWalletAndWithDiscount: 3717,
+    priceWithWBWalletWithDiscount: 3642,
     rating: 5,
     reviews: 4,
     highlighted: false,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: oversize_t_shirt_anxiety_club_01,
   },
   {
     id: 105,
-    title: 'Худи оверсайз "100$"',
-    priceWithoutWBWalletAndWithoutDiscount: 9328,
-    priceWithoutWBWalletAndWithDiscount: 6133,
-    priceWithWBWalletWithDiscount: 6010,
+    title: 'Худи оверсайз синий с кантом без начеса',
+    priceWithoutWBWalletAndWithoutDiscount: 20000,
+    priceWithoutWBWalletAndWithDiscount: 10782,
+    priceWithWBWalletWithDiscount: 10566,
     rating: 5,
     reviews: 2,
     highlighted: false,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: oversize_blue_hoodie_with_non_brushed_piping_01,
   },
   {
     id: 106,
-    title: 'Худи оверсайз "Звёздная ночь Ван Гога"',
-    priceWithoutWBWalletAndWithoutDiscount: 14500,
-    priceWithoutWBWalletAndWithDiscount: 9946,
-    priceWithWBWalletWithDiscount: 9747,
+    title: 'Худи с вышивкой "Тревожный Клуб"',
+    priceWithoutWBWalletAndWithoutDiscount: 10000,
+    priceWithoutWBWalletAndWithDiscount: 6192,
+    priceWithWBWalletWithDiscount: 6068,
     rating: 5,
     reviews: 1,
     highlighted: false,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: hoodie_with_anxiety_club_embroidery_01,
   },
   {
     id: 107,
-    title: 'Худи оверсайз "Я руковожу этим цирком"',
-    priceWithoutWBWalletAndWithoutDiscount: 8000,
-    priceWithoutWBWalletAndWithDiscount: 5438,
-    priceWithWBWalletWithDiscount: 5329,
+    title: 'Худи оверсайз с вышивкой "100$"',
+    priceWithoutWBWalletAndWithoutDiscount: 9328,
+    priceWithoutWBWalletAndWithDiscount: 6184,
+    priceWithWBWalletWithDiscount: 6060,
     rating: 5,
     reviews: 5,
     highlighted: false,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: oversize_hoodie_with_$100_embroidery_01,
   },
   {
     id: 108,
-    title: 'Синий худи с вышивкой "Honk"',
+    title: 'Худи синий с вышивкой "Honk"',
     priceWithoutWBWalletAndWithoutDiscount: 11000,
-    priceWithoutWBWalletAndWithDiscount: 6610,
-    priceWithWBWalletWithDiscount: 6477,
+    priceWithoutWBWalletAndWithDiscount: 6811,
+    priceWithWBWalletWithDiscount: 6674,
     rating: 5,
     reviews: 6,
     highlighted: false,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: blue_hoodie_with_honk_embroidery_01,
   },
   {
     id: 109,
-    title: 'Футболка "Крысиный Клуб"',
-    priceWithoutWBWalletAndWithoutDiscount: 4785,
-    priceWithoutWBWalletAndWithDiscount: 3539,
-    priceWithWBWalletWithDiscount: 3468,
+    title: 'Свитшот с вышивкой "Сотворение Адама"',
+    priceWithoutWBWalletAndWithoutDiscount: 7500,
+    priceWithoutWBWalletAndWithDiscount: 5409,
+    priceWithWBWalletWithDiscount: 5300,
     rating: 5,
     reviews: 3,
     highlighted: true,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: sweatshirt_with_embroidery_the_creation_of_adam_01,
   },
   {
     id: 110,
-    title: 'Футболка "Sniper Sniper Sniper"',
-    priceWithoutWBWalletAndWithoutDiscount: 4700,
-    priceWithoutWBWalletAndWithDiscount: 3579,
-    priceWithWBWalletWithDiscount: 3507,
+    title: 'Футболка с вышивкой "Сигма"',
+    priceWithoutWBWalletAndWithoutDiscount: 5500,
+    priceWithoutWBWalletAndWithDiscount: 4235,
+    priceWithWBWalletWithDiscount: 4150,
     rating: 5,
     reviews: 1,
     highlighted: false,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: t_shirt_with_sigma_embroidery_01,
   },
   {
     id: 111,
-    title: 'Футболка "Wifey Wifey Wifey"',
-    priceWithoutWBWalletAndWithoutDiscount: 4700,
-    priceWithoutWBWalletAndWithDiscount: 3579,
-    priceWithWBWalletWithDiscount: 3507,
+    title: 'Худи оверсайз с вышивкой "Работаю сутками"',
+    priceWithoutWBWalletAndWithoutDiscount: 8800,
+    priceWithoutWBWalletAndWithDiscount: 5321,
+    priceWithWBWalletWithDiscount: 5214,
     rating: 5,
     reviews: 2,
     highlighted: false,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: oversize_hoodie_with_working_around_the_clock_embroidery_01,
   },
   {
     id: 112,
-    title: "Футболка оверсайз с вышивкой сердца (черная)",
-    priceWithoutWBWalletAndWithoutDiscount: 4700,
-    priceWithoutWBWalletAndWithDiscount: 3579,
-    priceWithWBWalletWithDiscount: 3507,
+    title: 'Футболка с принтом "Need Money For Porsche"',
+    priceWithoutWBWalletAndWithoutDiscount: 5000,
+    priceWithoutWBWalletAndWithDiscount: 3850,
+    priceWithWBWalletWithDiscount: 3773,
     rating: 5,
     reviews: 4,
     highlighted: false,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: need_money_for_porsche_t_shirt_01,
   },
   {
     id: 113,
-    title: "Футболка оверсайз с вышивкой сердца (белая)",
-    priceWithoutWBWalletAndWithoutDiscount: 4700,
-    priceWithoutWBWalletAndWithDiscount: 3579,
-    priceWithWBWalletWithDiscount: 3507,
+    title: "Свитшот с вышивкой - Крысиный клуб Не осудим но обсудим",
+    priceWithoutWBWalletAndWithoutDiscount: 7040,
+    priceWithoutWBWalletAndWithDiscount: 4141,
+    priceWithWBWalletWithDiscount: 4156,
     rating: 5,
     reviews: 1,
     highlighted: false,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: sweatshirt_with_stay_kind_embroidery_01,
   },
   {
     id: 114,
-    title: 'Футболка "Tommys Sandwiches"',
-    priceWithoutWBWalletAndWithoutDiscount: 5000,
-    priceWithoutWBWalletAndWithDiscount: 3742,
-    priceWithWBWalletWithDiscount: 3667,
+    title: 'Худи оверсайз с вышивкой "Любовь"',
+    priceWithoutWBWalletAndWithoutDiscount: 9000,
+    priceWithoutWBWalletAndWithDiscount: 5169,
+    priceWithWBWalletWithDiscount: 5065,
     rating: 5,
     reviews: 1,
     highlighted: false,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: oversize_hoodie_with_love_embroidery_01,
   },
   {
     id: 115,
-    title: 'Футболка "Тревожный Клуб"',
-    priceWithoutWBWalletAndWithoutDiscount: 4700,
-    priceWithoutWBWalletAndWithDiscount: 3616,
-    priceWithWBWalletWithDiscount: 3543,
+    title: 'Футболка с принтом "Best Friends"',
+    priceWithoutWBWalletAndWithoutDiscount: 5000,
+    priceWithoutWBWalletAndWithDiscount: 3850,
+    priceWithWBWalletWithDiscount: 3773,
     rating: 5,
     reviews: 3,
     highlighted: false,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: oversize_white_t_shirt_with_heart_embroidery_01,
   },
   {
     id: 116,
-    title: 'Свитшот "Rat Club"',
+    title: 'Футболка с принтом "Best Friends"',
     priceWithoutWBWalletAndWithoutDiscount: 7200,
     priceWithoutWBWalletAndWithDiscount: 5190,
     priceWithWBWalletWithDiscount: 5050,
     rating: 5,
     reviews: 4,
     highlighted: true,
-    image: oversize_hoodie_with_love_embroidery_02,
+    image: oversize_white_t_shirt_with_heart_embroidery_01,
   },
   {
     id: 117,

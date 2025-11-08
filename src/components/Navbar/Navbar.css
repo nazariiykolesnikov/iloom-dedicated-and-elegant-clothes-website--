@@ -34,6 +34,12 @@
     height: 50px;
   }
 
+.favorites-button__counter {
+    color: #ffffff !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}
+
 @media (max-width: 480px) {
   .burger-menu__button {
     width: 20px;
@@ -86,11 +92,10 @@
         max-width: 320px;
     }
 
-    .user-button__section,
-    .favorites-button__section,
-    .shopping-card__section {
-        display: none;
-    }
+    /*.user-button__section,*/
+    /*.favorites-button__section {*/
+    /*    display: none;*/
+    /*}*/
 
     .burger-menu__section {
         position: absolute;
@@ -107,11 +112,10 @@
 
 /* Планшети (640px – 1023px) */
 @media (min-width: 640px) and (max-width: 1023px) {
-    .user-button__section,  
-    .favorites-button__section,
-    .shopping-card__section {
-      display: none;  
-    }
+    /*.user-button__section,  */
+    /*.favorites-button__section {*/
+    /*  display: none;  */
+    /*}*/
 
     .navbar-inner {
         flex-wrap: wrap;
@@ -182,10 +186,10 @@
 }
 
 @media (max-width: 1024px) {
-    .search-location__button,
-    .search-string__section {
-        display: none;
-    }
+    /*.search-location__button,*/
+    /*.search-string__section {*/
+    /*    display: none;*/
+    /*}*/
 }
 
 .user-icon-button {

@@ -1,13 +1,11 @@
-import { useRef, useState } from "react";
+import {
+  useRef
+} from "react";
 import { assets } from "../../../assets/data/assets.js";
 import { products } from "../../../assets/data/products.js";
-import {
-  increment,
-  decrement
-} from "../../../action/CounterAction.js";
 import "./BestsellersSlider.css";
 
-const BestsellersSlider = ({ dispatch }) => {
+const BestsellersSlider = () => {
   const sliderRef = useRef(null);
 
   const scrollLeft = () => {
@@ -49,17 +47,6 @@ const BestsellersSlider = ({ dispatch }) => {
           <div className="bestsellers__slider overflow-x-auto scrollbar-hide" ref={sliderRef}>
             <div className="flex gap-6 w-max ml-[7px] mt-[20px]">
               {products.map((product) => {
-                const [isFavorite, setIsFavorite] = useState(false);
-
-                const handleFavoriteClick = () => {
-                  if (isFavorite) {
-                    dispatch(decrement());
-                  } else {
-                    dispatch(increment());
-                  }
-                  setIsFavorite(!isFavorite);
-                };
-
                 return (
                     <div
                         key={product.id}
@@ -68,9 +55,8 @@ const BestsellersSlider = ({ dispatch }) => {
                         }`}
                     >
                       <img
-                          src={isFavorite ? assets.filled_heart : assets.heart_with_border}
+                          src={assets.filled_heart} /* assets.heart_with_border */
                           alt="Favorite"
-                          onClick={handleFavoriteClick}
                           className="z-1 absolute top-[20px] right-[19px] w-[24px] h-[24px] cursor-pointer transition hover:opacity-50"
                       />
                       <img
@@ -114,7 +100,11 @@ const BestsellersSlider = ({ dispatch }) => {
                         <span className="text-[#9D9DA5]"> · {product.reviews} оценка</span>
                       </div>
                       <button
-                          className="relative border-none cursor-pointer bg-[#FC8BD1]  montserrat font-[500] hover:bg-[#FDC5E8] w-full text-[#ffffff] text-[14px] montserrat h-[56px] mt-[10px] rounded-[12px] transition">
+                          className="
+                            relative border-none cursor-pointer bg-[#FC8BD1]  montserrat font-[500] hover:bg-[#FDC5E8]
+                            w-full text-[#ffffff] text-[14px] montserrat h-[56px] mt-[10px] rounded-[12px] transition
+                          "
+                      >
                         <img
                             src={assets.shopping_cart}
                             alt="Shopping Cart"
@@ -123,8 +113,9 @@ const BestsellersSlider = ({ dispatch }) => {
                         Добавить в корзину
                       </button>
                     </div>
-                );
-              })}
+                  );
+                })
+              }
             </div>
           </div>
         </section>

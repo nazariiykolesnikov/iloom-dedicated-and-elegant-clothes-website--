@@ -1,4 +1,3 @@
-// import { instagramProducts } from "../assets/data/instagram-products.js";
 import i_loom_style_instagram_01 from "../../../assets/images/instagram/i_loom_style_instagram_01.png";
 import i_loom_style_instagram_02 from "../../../assets/images/instagram/i_loom_style_instagram_02.png";
 import i_loom_style_instagram_03 from "../../../assets/images/instagram/i_loom_style_instagram_03.png";
