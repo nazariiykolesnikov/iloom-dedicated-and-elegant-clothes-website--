@@ -4,9 +4,14 @@ import {
 } from "react";
 import {
     products_mini_hoodies_part1,
-    products_mini_hoodies_part2,
     products_mini_t_shirts_part_1,
-    products_mini_sweatshirts_part1
+    products_mini_sweatshirts_part1,
+    products_mini_hoodies_part2,
+    products_mini_t_shirts_part_2,
+    products_mini_sweatshirts_part2,
+    products_mini_hoodies_part3,
+    products_mini_t_shirts_part_3,
+    products_mini_sweatshirts_part3,
 } from "../../../assets/data/product-mini.js";
 import "./NewProducts.css";
 import { assets } from "../../../assets/data/assets.js";
@@ -80,8 +85,13 @@ const NewProducts = () => {
                     </div>
                     <div className="news_product__tabs-content ml-[15px]">
                         {activeTab === "hoodie" && renderProducts(products_mini_hoodies_part2)}
-                        {activeTab === "t-shirt" && renderProducts(products_mini_t_shirts_part_1)}
-                        {activeTab === "sweatshirt" && renderProducts(products_mini_sweatshirts_part1)}
+                        {activeTab === "t-shirt" && renderProducts(products_mini_t_shirts_part_2)}
+                        {activeTab === "sweatshirt" && renderProducts(products_mini_sweatshirts_part2)}
+                    </div>
+                    <div className="news_product__tabs-content ml-[15px]">
+                        {activeTab === "hoodie" && renderProducts(products_mini_hoodies_part3)}
+                        {activeTab === "t-shirt" && renderProducts(products_mini_t_shirts_part_3)}
+                        {activeTab === "sweatshirt" && renderProducts(products_mini_sweatshirts_part3)}
                     </div>
                 </div>
             </section>

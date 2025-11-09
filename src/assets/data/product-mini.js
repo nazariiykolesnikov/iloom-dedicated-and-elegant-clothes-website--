@@ -7,23 +7,23 @@ import oversize_hoodie_with_love_embroidery_01 from "../../assets/products/Overs
 import oversize_hoodie_with_$100_embroidery_01 from "../../assets/products/Oversize hoodies/Oversize_hoodie_with_$100_embroidery/oversize_hoodie_with_$100_embroidery_01.webp";
 import blue_hoodie_with_honk_embroidery_01 from "../../assets/products/Oversize hoodies/Blue_hoodie_with_Honk_embroidery/blue_hoodie_with_honk_embroidery_01.webp";
 import oversize_hoodie_with_working_around_the_clock_embroidery_01 from "../../assets/products/Oversize hoodies/Oversize_hoodie_with_working_around_the_clock_embroidery/oversize_hoodie_with_working_around_the_clock_embroidery_01.webp";
-// import oversize_hoodie_with_embroidery_I_run_this_circus_01 from "../images/products/Oversize_hoodie_with_embroidery_I_run_this_circus/oversize_hoodie_with_embroidery_I_run_this_circus_01.webp";
-// import blue_hoodie_with_honk_embroidery_01 from "../../assets/products/Blue_hoodie_with_Honk_embroidery/blue_hoodie_with_honk_embroidery_01.webp";
 
 /* Футболки */
-// import t_shirt_with_rat_club_embroidery_01 from "../images/products/T_shirt_with_Rat_Club_embroidery/t_shirt_with_rat_club_embroidery_01.webp";
-//  t_shirt_with_sniper_sniper_sniper_embroidery_01 from "../../assets/products/T_shirt_with_Sniper_Sniper_Sniper_embroidery/t_shirt_with_sniper_sniper_sniper_embroidery_01.webp";
-// import t_shirt_with_wifey_wifey_wifey_embroidery_01 from "../../assets/products/T_shirt_with_Wifey_Wifey_Wifey_embroidery/t_shirt_with_wifey_wifey_wifey_embroidery_01.webp";
-// import oversize_black_t_shirt_with_heart_embroidery_01 from "../../assets/products/Oversize_black_t_shirt_with_heart_embroidery/oversize_black_t_shirt_with_heart_embroidery_01.webp";
-// import oversize_white_t_shirt_with_heart_embroidery_01 from "../../assets/products/products/Oversize_white_t_shirt_with_heart_embroidery/oversize_white_t_shirt_with_heart_embroidery_01.webp";
-// import tommys_sandwiches_t_shirt_01 from "../images/products/Tommys_Sandwiches_T_shirt/tommys_sandwiches_t_shirt_01.webp";
+import tommys_sandwiches_t_shirt_01 from "../../assets/products/TShirts/Tommys_Sandwiches_T_shirt/tommys_sandwiches_t_shirt_01.webp";
 import oversize_t_shirt_anxiety_club_01 from "../../assets/products/TShirts/Oversize_T_shirt_Anxiety_Club/oversize_t_shirt_anxiety_club_01.webp";
+import t_shirt_with_sigma_embroidery_01 from "../../assets/products/TShirts/T_shirt_with_Sigma_embroidery/t_shirt_with_sigma_embroidery_01.webp";
+import need_money_for_porsche_t_shirt_01 from "../../assets/products/TShirts/Need_money_for_Porsche_t_shirt/need_money_for_porsche_t_shirt_01.webp";
+import t_shirt_with_wifey_wifey_wifey_embroidery_01 from "../../assets/products/TShirts/T_shirt_with_Wifey_Wifey_Wifey_embroidery/t_shirt_with_wifey_wifey_wifey_embroidery_01.webp";
+import t_shirt_with_sniper_sniper_sniper_embroidery_01 from "../../assets/products/TShirts/T_shirt_with_Sniper_Sniper_Sniper_embroidery/t_shirt_with_sniper_sniper_sniper_embroidery_01.webp";
+import oversize_black_t_shirt_with_heart_embroidery_01 from "../../assets/products/TShirts/Oversize_black_t_shirt_with_heart_embroidery/oversize_black_t_shirt_with_heart_embroidery_01.webp";
+import t_shirt_with_bonjour_print_01 from "../../assets/products/TShirts/T_shirt_with _Bonjour_print/t_shirt_with_bonjour_print_01.webp";
+import oversize_t_shirt_with_dont_whine_syka_print_01 from "../../assets/products/TShirts/Oversize_T_shirt_with_dont_whine_SYKA_print/oversize_t_shirt_with_dont_whine_syka_print_01.webp";
+import t_shirt_with_rat_club_embroidery_01 from "../../assets/products/TShirts/T_shirt_with_Rat_Club_embroidery/t_shirt_with_rat_club_embroidery_01.webp";
+import oversize_t_shirt_with_embroidery_did_you_forget_your_head_at_home_01 from "../../assets/products/TShirts/Oversize_T_shirt_with_embroidery_Did_you_forget_your_head_at_home/oversize_t_shirt_with_embroidery_did_you_forget_your_head_at_home_01.webp";
 
 /* Свитшоти */
-// import sweatshirt_with_rat_club_embroidery_01 from "../images/products/Sweatshirt_with_Rat_Club_embroidery/sweatshirt_with_rat_club_embroidery_01.webp";
-// import sweatshirt_with_stay_kind_embroidery_01 from "../images/products/Sweatshirt_with_Stay_Kind_embroidery/sweatshirt_with_stay_kind_embroidery_01.webp";
-// import sweatshirt_with_sun_embroidery_01 from "../images/products/Sweatshirt_with_Sun_embroidery/sweatshirt_with_sun_embroidery_01.webp";
-// import sweatshirt_with_pink_skull_embroidery_01 from "../images/products/Sweatshirt_with_Pink_Skull_embroidery/sweatshirt_with_pink_skull_embroidery_01.webp";d
+import sweatshirt_with_embroidery_the_creation_of_adam_01 from "../../assets/products/Sweatshirts/Sweatshirt_with_embroidery_the_creation_of_Adam/sweatshirt_with_embroidery_the_creation_of_adam_01.webp";
+import sweatshirt_with_stay_kind_embroidery_01 from "../../assets/products/Sweatshirts/Embroidered_sweatshirt_Rat_Club_We_won't_judge_but_we_will_discuss/embroidered_sweatshirt_rat_club_we_wont_judge_but_we_will_discuss_01.webp";
 
 export const products_mini_hoodies_part1 = [
     {
@@ -119,179 +119,169 @@ export const products_mini_hoodies_part2 = [
     },
 ];
 
+export const products_mini_hoodies_part3 = [
+];
+
 export const products_mini_t_shirts_part_1 = [
     {
         id: 1,
-        title: 'Худи оверсайз "100$"',
-        priceWithoutWBWalletAndWithoutDiscount: 9328,
-        priceWithoutWBWalletAndWithDiscount: 6133,
-        priceWithWBWalletWithDiscount: 6010,
+        title: 'Футболка с принтом "Tommys Sandwiches"',
+        priceWithoutWBWalletAndWithoutDiscount: 3773,
+        priceWithoutWBWalletAndWithDiscount: 3850,
+        priceWithWBWalletWithDiscount: 5000,
         rating: 5,
         reviews: 2,
         highlighted: false,
-        image: oversize_t_shirt_anxiety_club_01,
+        image: tommys_sandwiches_t_shirt_01,
     },
     {
         id: 2,
-        title: 'Худи оверсайз "Звёздная ночь Ван Гога"',
-        priceWithoutWBWalletAndWithoutDiscount: 14500,
-        priceWithoutWBWalletAndWithDiscount: 9946,
-        priceWithWBWalletWithDiscount: 9747,
+        title: 'Футболка оверсайз "Тревожный Клуб"',
+        priceWithoutWBWalletAndWithoutDiscount: 4700,
+        priceWithoutWBWalletAndWithDiscount: 3717,
+        priceWithWBWalletWithDiscount: 3642,
         rating: 5,
-        reviews: 1,
+        reviews: 4,
         highlighted: false,
         image: oversize_t_shirt_anxiety_club_01,
     },
     {
         id: 3,
-        title: 'Худи оверсайз "Я руковожу этим цирком"',
-        priceWithoutWBWalletAndWithoutDiscount: 8000,
-        priceWithoutWBWalletAndWithDiscount: 5438,
-        priceWithWBWalletWithDiscount: 5329,
+        title: 'Футболка с вышивкой "Сигма"',
+        priceWithoutWBWalletAndWithoutDiscount: 5500,
+        priceWithoutWBWalletAndWithDiscount: 4235,
+        priceWithWBWalletWithDiscount: 4150,
         rating: 5,
-        reviews: 5,
+        reviews: 1,
         highlighted: false,
-        image: oversize_t_shirt_anxiety_club_01,
+        image: t_shirt_with_sigma_embroidery_01,
     },
     {
         id: 4,
-        title: 'Синий худи с вышивкой "Honk"',
-        priceWithoutWBWalletAndWithoutDiscount: 11000,
-        priceWithoutWBWalletAndWithDiscount: 6610,
-        priceWithWBWalletWithDiscount: 6477,
+        title: 'Футболка с принтом "Need Money For Porsche"',
+        priceWithoutWBWalletAndWithoutDiscount: 5000,
+        priceWithoutWBWalletAndWithDiscount: 3850,
+        priceWithWBWalletWithDiscount: 3773,
         rating: 5,
-        reviews: 6,
+        reviews: 4,
         highlighted: false,
-        image: oversize_t_shirt_anxiety_club_01,
+        image: need_money_for_porsche_t_shirt_01,
     },
 ];
 
 export const products_mini_t_shirts_part_2 = [
-    {
+     {
         id: 1,
-        title: "Футболка оверсайз с вышивкой сердца (белая)",
+        title: 'Футболка с вышивкой "Sniper Sniper Sniper"',
         priceWithoutWBWalletAndWithoutDiscount: 4700,
-        priceWithoutWBWalletAndWithDiscount: 3579,
-        priceWithWBWalletWithDiscount: 3507,
-        rating: 5,
-        reviews: 1,
-        highlighted: false,
-        image: oversize_t_shirt_anxiety_club_01,
-    },
-    {
-        id: 2,
-        title: 'Футболка "Tommys Sandwiches"',
-        priceWithoutWBWalletAndWithoutDiscount: 5000,
-        priceWithoutWBWalletAndWithDiscount: 3742,
-        priceWithWBWalletWithDiscount: 3667,
-        rating: 5,
-        reviews: 1,
-        highlighted: false,
-        image: oversize_t_shirt_anxiety_club_01,
-    },
-    {
-        id: 3,
-        title: 'Футболка "Тревожный Клуб"',
-        priceWithoutWBWalletAndWithoutDiscount: 4700,
-        priceWithoutWBWalletAndWithDiscount: 3616,
-        priceWithWBWalletWithDiscount: 3543,
+        priceWithoutWBWalletAndWithDiscount: 3494,
+        priceWithWBWalletWithDiscount: 3424,
         rating: 5,
         reviews: 3,
         highlighted: false,
-        image: oversize_t_shirt_anxiety_club_01,
+        image: t_shirt_with_sniper_sniper_sniper_embroidery_01,
+    },
+    {
+        id: 2,
+        title: 'Футболка оверсайз с вышивкой сердца',
+        priceWithoutWBWalletAndWithoutDiscount: 4700,
+        priceWithoutWBWalletAndWithDiscount: 3494,
+        priceWithWBWalletWithDiscount: 3424,
+        rating: 5,
+        reviews: 4,
+        highlighted: true,
+        image:  oversize_black_t_shirt_with_heart_embroidery_01,
+    },
+    {
+        id: 3,
+        title: 'Футболка оверсайз с принтом "Не ной SYKA"',
+        priceWithoutWBWalletAndWithoutDiscount: 5000,
+        priceWithoutWBWalletAndWithDiscount: 3361,
+        priceWithWBWalletWithDiscount: 3293,
+        rating: 5,
+        reviews: 2,
+        highlighted: false,
+        image: oversize_t_shirt_with_dont_whine_syka_print_01,
+    },
+    {
+        id: 4,
+        title: 'Футболка с принтом "Bonjour"',
+        priceWithoutWBWalletAndWithoutDiscount: 7800,
+        priceWithoutWBWalletAndWithDiscount: 5480,
+        priceWithWBWalletWithDiscount: 5340,
+        rating: 5,
+        reviews: 3,
+        highlighted: false,
+        image: t_shirt_with_bonjour_print_01,
+    }
+];
+
+export const products_mini_t_shirts_part_3 = [
+    {
+        id: 1,
+        title: 'Футболка оверсайз с принтом "Не ной SYKA"',
+        priceWithoutWBWalletAndWithoutDiscount: 4700,
+        priceWithoutWBWalletAndWithDiscount: 3159,
+        priceWithWBWalletWithDiscount: 3095,
+        rating: 5,
+        reviews: 5,
+        highlighted: false,
+        image: t_shirt_with_wifey_wifey_wifey_embroidery_01,
+    },
+    {
+        id: 2,
+        title: 'Футболка с вышивкой "Крысиный Клуб"',
+        priceWithoutWBWalletAndWithoutDiscount: 4785,
+        priceWithoutWBWalletAndWithDiscount: 2911,
+        priceWithWBWalletWithDiscount: 2852,
+        rating: 5,
+        reviews: 5,
+        highlighted: false,
+        image: t_shirt_with_rat_club_embroidery_01,
+    },
+    {
+        id: 3,
+        title: 'Футболка оверсайз с вышивкой "А голову ты дома не забыл?"',
+        priceWithoutWBWalletAndWithoutDiscount: 4700,
+        priceWithoutWBWalletAndWithDiscount: 3159,
+        priceWithWBWalletWithDiscount: 3095,
+        rating: 5,
+        reviews: 5,
+        highlighted: false,
+        image: oversize_t_shirt_with_embroidery_did_you_forget_your_head_at_home_01,
     },
 ];
 
 export const products_mini_sweatshirts_part1 = [
     {
         id: 1,
-        title: 'Свитшот "Rat Club"',
-        priceWithoutWBWalletAndWithoutDiscount: 7200,
-        priceWithoutWBWalletAndWithDiscount: 5190,
-        priceWithWBWalletWithDiscount: 5050,
+        title: "Свитшот с вышивкой - Крысиный клуб Не осудим но обсудим",
+        priceWithoutWBWalletAndWithoutDiscount: 7040,
+        priceWithoutWBWalletAndWithDiscount: 4141,
+        priceWithWBWalletWithDiscount: 4156,
         rating: 5,
-        reviews: 4,
-        highlighted: true,
-        image: oversize_t_shirt_anxiety_club_01,
+        reviews: 1,
+        highlighted: false,
+        image: sweatshirt_with_stay_kind_embroidery_01,
+
     },
     {
         id: 2,
-        title: 'Свитшот "Stay Kind"',
+        title: 'Свитшот с вышивкой "Сотворение Адама"',
         priceWithoutWBWalletAndWithoutDiscount: 7500,
-        priceWithoutWBWalletAndWithDiscount: 5340,
-        priceWithWBWalletWithDiscount: 5200,
-        rating: 5,
-        reviews: 2,
-        highlighted: false,
-        image: oversize_t_shirt_anxiety_club_01,
-    },
-    {
-        id: 3,
-        title: 'Свитшот "Sunshine Inside"',
-        priceWithoutWBWalletAndWithoutDiscount: 7800,
-        priceWithoutWBWalletAndWithDiscount: 5480,
-        priceWithWBWalletWithDiscount: 5340,
+        priceWithoutWBWalletAndWithDiscount: 5409,
+        priceWithWBWalletWithDiscount: 5300,
         rating: 5,
         reviews: 3,
-        highlighted: false,
-        image: oversize_t_shirt_anxiety_club_01,
-    },
-    {
-        id: 4,
-        title: 'Свитшот "Pink Skull"',
-        priceWithoutWBWalletAndWithoutDiscount: 7700,
-        priceWithoutWBWalletAndWithDiscount: 5420,
-        priceWithWBWalletWithDiscount: 5280,
-        rating: 5,
-        reviews: 5,
-        highlighted: false,
-        image: oversize_t_shirt_anxiety_club_01,
+        highlighted: true,
+        image: sweatshirt_with_embroidery_the_creation_of_adam_01,
     },
 ];
 
 export const products_mini_sweatshirts_part2 = [
-    {
-        id: 1,
-        title: 'Свитшот "Rat Club"',
-        priceWithoutWBWalletAndWithoutDiscount: 7200,
-        priceWithoutWBWalletAndWithDiscount: 5190,
-        priceWithWBWalletWithDiscount: 5050,
-        rating: 5,
-        reviews: 4,
-        highlighted: true,
-        image: oversize_t_shirt_anxiety_club_01,
-    },
-    {
-        id: 2,
-        title: 'Свитшот "Stay Kind"',
-        priceWithoutWBWalletAndWithoutDiscount: 7500,
-        priceWithoutWBWalletAndWithDiscount: 5340,
-        priceWithWBWalletWithDiscount: 5200,
-        rating: 5,
-        reviews: 2,
-        highlighted: false,
-        image: oversize_t_shirt_anxiety_club_01,
-    },
-    {
-        id: 3,
-        title: 'Свитшот "Sunshine Inside"',
-        priceWithoutWBWalletAndWithoutDiscount: 7800,
-        priceWithoutWBWalletAndWithDiscount: 5480,
-        priceWithWBWalletWithDiscount: 5340,
-        rating: 5,
-        reviews: 3,
-        highlighted: false,
-        image: oversize_t_shirt_anxiety_club_01,
-    },
-    {
-        id: 4,
-        title: 'Свитшот "Pink Skull"',
-        priceWithoutWBWalletAndWithoutDiscount: 7700,
-        priceWithoutWBWalletAndWithDiscount: 5420,
-        priceWithWBWalletWithDiscount: 5280,
-        rating: 5,
-        reviews: 5,
-        highlighted: false,
-        image: oversize_t_shirt_anxiety_club_01,
-    },
+    
+];
+
+export const products_mini_sweatshirts_part3 = [
+    
 ];
