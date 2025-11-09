@@ -83,12 +83,12 @@ const NewProducts = () => {
                         {activeTab === "t-shirt" && renderProducts(products_mini_t_shirts_part_1)}
                         {activeTab === "sweatshirt" && renderProducts(products_mini_sweatshirts_part1)}
                     </div>
-                    <div className="news_product__tabs-content ml-[15px]">
+                    <div className="news_product__tabs-content ml-[22px]">
                         {activeTab === "hoodie" && renderProducts(products_mini_hoodies_part2)}
                         {activeTab === "t-shirt" && renderProducts(products_mini_t_shirts_part_2)}
                         {activeTab === "sweatshirt" && renderProducts(products_mini_sweatshirts_part2)}
                     </div>
-                    <div className="news_product__tabs-content ml-[15px]">
+                    <div className="news_product__tabs-content ml-[22px]">
                         {activeTab === "hoodie" && renderProducts(products_mini_hoodies_part3)}
                         {activeTab === "t-shirt" && renderProducts(products_mini_t_shirts_part_3)}
                         {activeTab === "sweatshirt" && renderProducts(products_mini_sweatshirts_part3)}
